@@ -1,0 +1,9 @@
+# Introduction
+
+Stock trading is one of profitable activities, in case can predict rightly most of the time. Different traders use various methods to predict it, including news to price data of companies or financial statements such as income statement, balance sheet and cash flow. Unfortunately, there is no data for investors' sentiments, attitudes, and expectations that ultimately affect stock prices. Even so, the prediction is not correct sometimes, it should provide good enough insight for trader to make right decision. In this project we will try based on financial data of companies make predictions for short and long term.
+
+# Dataset and Features
+
+In order to download the raw data of individual stock from yahoo, in our case for Google, Yahoofinancials library for Python3 is used. This library is a powerful financial data module used for pulling both fundamental and technical data from Yahoo Finance. The advantage of this library is that, all methods returns data as a JSON format which is useful to share data with other systems over REST API interface or save locally in CSV files. To make more precise prediction for stock price of company in short and long term, we need to find most important metrics in Stock Fundamental Analysis. Below are key financial statements for the past years or quarters:
+Income Statement – Annual/Quarterly. Show how profitable company. Balance Sheet – Annual/Quarterly. Shows if enough cash or too much debt.
+Cash Flow – Annual/Quarterly. Shows financial state, more valuable than income statement. Stock Price Exchange – Daily. Data for past 10 years.
